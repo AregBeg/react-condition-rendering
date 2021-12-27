@@ -1,0 +1,8 @@
+body {
+    display: flex;
+    justify-content: center;
+    background: rgb(37,37,37);
+    background: linear-gradient(273deg, rgba(37,37,37,1) 0%, rgba(31,31,31,1) 100%);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

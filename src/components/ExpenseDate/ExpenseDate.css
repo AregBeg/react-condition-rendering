@@ -1,0 +1,21 @@
+.expense-date {
+    background-color: #161616;
+    text-align: center;
+    padding: 5px;
+    min-width: 80px;
+    border: 2px solid #fdf3f1;
+    border-radius: 10px;
+}
+.expense-date > div {
+    color: #fdf3f1;
+}
+.month {
+    font-family: inherit;
+    font-size: 12px;
+    margin: 5px;
+}
+.day {
+    font-family: inherit;
+    font-size: 10px;
+    margin: 5px;
+}
