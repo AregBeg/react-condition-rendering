@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import ExpenseItem from '../ExpenseItem/ExpenseItem';
+import ExpenseChart from '../Chart/ExpenseChart';
 import NewExpense from '../NewExpense/NewExpense';
 import ExpensesFilter from '../ExpenseFilter/ExpensesFilter';
 import ExpensesList from '../ExpensesList/ExpensesList';
@@ -51,6 +52,7 @@ function Expense() {
         <div className='container'>
             <NewExpense onSaveNewExpenses={newExpensesHandler} />
             <ExpensesFilter onChangeYear={changeYear}/>
+            <ExpenseChart expenses={filteredExpense} />
             <ExpensesList filteredExpense={filteredExpense}/>
         </div>
 

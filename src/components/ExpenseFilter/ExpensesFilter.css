@@ -28,3 +28,6 @@
     margin-left: 14px;
     font-family: inherit;
   }
+  select {
+    cursor: pointer;
+  }
